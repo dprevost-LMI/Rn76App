@@ -1,5 +1,14 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Project showing Qualtric issues
+
+1. Need to use `src` import which is not a usually thing like in `import Qualtrics, { InitializationResult } from 'react-native-qualtrics/src';`
+   1. See file `qualtrics.ts`
+2. iOS native code is not compiling
+  1. Run `cd ios && pod install && cd ..`
+  2. Run `npm run ios`
+  3. Error from react-native-qualtrics are shown
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
